@@ -1,0 +1,39 @@
+{
+  "name": "front_end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "node dist/server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "d3": "^7.9.0",
+    "express": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.3",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.13",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.4"
+  }
+}
