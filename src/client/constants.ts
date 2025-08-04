@@ -35,8 +35,13 @@ export const GPU_MACHINES: GPUMachine[] = [
     },
     {
       id: '3',
-      text: 'Currently running on GPU Machine A with the GPT-4 model. Performance metrics are looking good! What would you like to know more about?',
+      text: 'Currently running on H100 machine only with a chosen facebook model!',
       type: 'bot',
       timestamp: new Date(),
     },
   ];
+
+export const PORTS = {
+    "H100": "50001",
+    "910B": "50002",
+};

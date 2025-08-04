@@ -58,6 +58,20 @@ export const commonStyles = {
       textAlign: 'center' as const,
       fontWeight: '600',
     },
+    dropdown: {
+      padding: '12px 16px',
+      border: '2px solid rgba(0,0,0,0.1)',
+      borderRadius: '12px',
+      fontSize: '1rem',
+      background: 'white',
+      cursor: 'pointer',
+      transition: 'all 0.3s ease',
+      outline: 'none',
+      ':focus': {
+        borderColor: '#667eea',
+        boxShadow: '0 0 0 3px rgba(102, 126, 234, 0.1)'
+      }
+    },
   };
   
   export const globalStyles = `
